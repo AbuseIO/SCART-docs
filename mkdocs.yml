@@ -29,6 +29,8 @@ nav:
     - Custom Webforms: details/custom_webforms.md
     - Email import whitelist: details/whitelist.md
     - ICCAM: details/iccam.md
+    - Cleanup: details/cleanup.md
+  - "": architecture/architecture.md
 
 
 
