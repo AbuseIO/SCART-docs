@@ -29,8 +29,8 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo "do a test"
-          cd /tmp/
-          touch this_is_a_test
+          cd /tmp
+          touch this_is_a_test.txt
 #          echo "CD to webroot"
 #          cd /var/www/docs_scart_io/SCART-docs
 #          echo "pull the code"
