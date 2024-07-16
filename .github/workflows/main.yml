@@ -33,4 +33,4 @@ jobs:
           echo "pull the code"
           git pull origin main
           echo "build the site"
-          mkdocs build
+          sudo mkdocs build
