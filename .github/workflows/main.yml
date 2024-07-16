@@ -31,6 +31,6 @@ jobs:
           echo "CD to webroot"
           cd /var/www/docs_scart_io/SCART-docs
           echo "pull the code"
-          git pull main origin
+          git pull origin main
           echo "build the site"
           mkdocs build
