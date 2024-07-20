@@ -34,7 +34,7 @@ See chapter [Import](basic/import.md).
 The classification can be done based on default questions provided in SCARt, but you 
 can add your own questions. Each image can be viewed and marked as illegal or not 
 illegal. Also you can set "first police" by which the URL's first are send to the 
-police contact you provided. 
+Law Enforcement Agency (LEA) contact you provided. 
 See chapter [Classification](basic/classification.md).
 
 After classification SCARt will monitor the illegal classified URL's. For each hoster 
@@ -50,8 +50,8 @@ Within SCARt different kind of functions are included such as:
 
 - Automatic rules based on a domain specification
 - Maintenance of abuse contacts 
-- Workflow management sending to Police
-- workflow management Change of hosting information
+- Workflow management sending to LEA
+- workflow management change of hosting information
 - maintenance of own source definitions
 - maintenance of own NTD (email) templates
 - Cloudflare lookup of the real IP address
@@ -66,11 +66,11 @@ Start with going through the basics, use it and check the details for help.
 |:---------|:---------------------------------------------------------------------------------------------------------------|
 | SCART    | Sexual Child Abuse Reporting Tool, <https://scart.io>                                                          |
 | YAML     | Yet Another Markup Language, <https://en.wikipedia.org/wiki/YAML>                                              |
-| URL      | Uniform Resource Locator, eg <https://www.domain.com>                                                          |
+| URL      | Uniform Resource Locator, eg <https://www.example.com>                                                          |
 | Referrer | Identifies the address of the web page (url) from which the resource has been requested                        |
 | Scrape   | The process of getting the images from a web page uniquely addressed by the url                                |
-| LEA | Law Enforcement Agency is any government agency responsible for law enforcement within a specific jurisdiction |
-| mainurl | The report with image (media) content items attached to it |
+| LEA      | Law Enforcement Agency is any government agency responsible for law enforcement within a specific jurisdiction |
+| mainurl  | The report with image (media) content items attached to it |
 | imageurl | A content item existing of a image or video or other internet content |
 
 

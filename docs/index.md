@@ -33,10 +33,21 @@ community. Together, we can help keep children safe around the world.
 
 Special thanks goes to:
 
-- Offlimits, the Dutch hotline, www.offlimits.nl
-- AbuseIO, the non-profit (ANBI) Foundation in the Netherlands
-- SIDN fonds, foundation in the Netherlands funding good-for-the-internet projects
-- S3group, technology partner and sponor, primary builder of the software 
-- and all the other fans of SCARt
+- INHOPE, the global network of hotlines, for funding parts of SCARt and their 
+expert contributions, more info on **https://inhope.org/**;
+- Ministry of Justice and Security, the Dutch ministry, for funding parts of SCARt, 
+more info on **https://www.government.nl/ministries/ministry-of-justice-and-security**;
+- Offlimits, the Dutch hotline, for their support in kind and for starting SCARt with 
+AbuseIO, more info on **https://www.offlimits.nl/**;
+- S3group, a Dutch software and technology company, for their support in kind and for 
+being the main contributor to the software, more info on **https://s3group.nl/**;
+- SIDN fonds, a Dutch fund that supports *a strong internet for all*, for funding the 
+first versions of SCARt, more info on **https://www.sidnfonds.nl/**;
+- and all the other fans of SCARt.
 
+#### More info
+
+AbuseIO is a non-profit (ANBI) foundation, located in the Netherlands. It is run by 
+volunteers. More information on the foundation and other activities by AbuseIO on 
+**https://abuse.io/**. Contact us on info@abuse.io.
 
