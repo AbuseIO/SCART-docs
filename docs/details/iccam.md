@@ -8,24 +8,24 @@ within the SCART config.
 
 ## Importing
 
-SCARt will check every minute if there are import records waiting in ICCAM. If there are,
-these records are imported as report with all content items attached. If classification 
-is set in ICCAM, this is copied to SCARt. If the import was successfull, SCARt will set 
+SCARt will check every minute for import records waiting in ICCAM. If there are,
+these records are imported as report with all content items attached. Any classification 
+in ICCAM will be copied to SCARt. If the import was successfull, SCARt will set 
 the reference in ICCAM to the SCARt filenumber.
 
 When importing from ICCAM, SCARt will load the images from the content items directly 
-without scraping the main URL. So the content will be as close as registrert in ICCAM. 
+without scraping the main URL. So the content will be close to identical as in ICCAM. 
 
 ## Exporting
 
-All reports and content items that are impored from ICCAM will also receive an
-update (export) when handled within SCARt. This can be the classification, but also action 
+All reports and content items that are imported from ICCAM will also receive an
+update (export) when handled within SCARt. This can be the classification, but also actions 
 like Content Unavailable and send to ISP or LEA. 
 
 ## Errors
 
 Sometimes there are synchronization errors between ICCAM and SCARt. This can be because of 
-timing conflicts and/or manual handling of report in the same timeframe within 
+timing conflicts and/or manual handling of a report in the same timeframe within 
 ICCAM and SCARt.
 
 In SCARt under Settings -> "Export errors" logrecords of ICCAM synchronization problems 

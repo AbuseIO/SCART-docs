@@ -19,12 +19,12 @@ based on:
 - aliases
 - abuse email address
 
-When a contact is created by SCARt, The GDPR approved is NOT set and reports with this 
+When a contact is created by SCARt, the GDPR approved flag is NOT set then reports with this 
 contact will be placed in the CHANGED status. 
 
 First an analyst has to check the contact information such as email address, country and 
-GDPR approved. if checked, he or she can set these fields so this abuse contact can be 
-used.
+GDPR approved flag. Once checked, the analyst can confirm these fields so this abuse contact 
+can be used.
 
 ## Specific NTD email template
 
@@ -36,8 +36,8 @@ syntax for the body as specified in [NTD email templates](../basic/ntd.md).
 
 ## API linker check
 
-Some hosters supports an API to support automatically pushing illegal URLS so these are 
-directly removed by there services.
+Some hosters support an API to support automatical retrieval of illegal URL's in order to 
+automatically and immediately remove these images.
 
 Contact your SCARt provider for adding a specific API for a hoster to SCARt. 
 
