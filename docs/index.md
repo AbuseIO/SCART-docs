@@ -50,4 +50,3 @@ first versions of SCARt, more info on **https://www.sidnfonds.nl/**;
 AbuseIO is a non-profit (ANBI) foundation, located in the Netherlands. It is run by 
 volunteers. More information on the foundation and other activities by AbuseIO on 
 **https://abuse.io/**. Contact us on info@abuse.io.
-
