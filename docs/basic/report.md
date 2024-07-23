@@ -2,13 +2,13 @@
 
 ---
 
-In SCARt a basic reporting module is include which export the data into a CSV
+In SCARt a basic reporting module is included which export the data into a CSV
 (comma seperated values) file.
 
-You can create a report in SCARt. After this, the report will be run in the background 
-because of the possible time needed to generate the report. After finishing, an email 
-is send to the report notify email address and the report can be downloaded when you 
-open the report.
+You can create a report in SCARt. After this, the report will be created in the 
+background because of the time needed to generate the report. When finished, an 
+email is send to the report notify email address with a link to download the 
+report.
 
 ## Columns
 
@@ -19,7 +19,7 @@ and also in which order.
 
 The export format is CSV with the field content enclosed in quotes like:
 
-"field 1";"field 2";.."Field n";
+"Field 1";"Field 2";.."Field n";
 
 This file can directly be opened by spreadsheet programmas like Microsoft Excel or  
 Libreoffice Calc. 
