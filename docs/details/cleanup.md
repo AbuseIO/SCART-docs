@@ -8,7 +8,7 @@ Every night the cleanup background job runs to do a checkup from the SCARt envir
 The following actions are done:
 
 1. Recycle the SCARt application logfile
-2. Reset for scraping-again from inputs-open-for-classify and not look at in the past 24 hours
+2. Reset from inputs-open-for-classify to scraping-again after 24 hours
 3. Remove cached images when analyzing is finished
 4. Cleanup of the Whois cache; removal of not active domains and/or IP records
 5. Rewind the ICCAM import one day to be sure every ICCAM report is imported
