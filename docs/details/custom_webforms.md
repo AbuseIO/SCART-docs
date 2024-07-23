@@ -123,7 +123,7 @@ An example body text is:
 You can use this in the body part in a general (NTD) template or in a specific one 
 for an abusecontact.
 
-# Reporting 
+## Reporting 
 
 Within the function Report also the “text only” or “no url” reports can be exported. 
 This can simply be done by filtering on CLOSE and UNSET classification. 
