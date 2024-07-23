@@ -12,7 +12,6 @@ There are a number of moments when SCARt starts a NTD:
 - after classify and when the hoster of illegal material is local (country)
 - after 24 hours when the illegal content is still online
 - when marked as POLICE in classify (ntd to police contact)
-- when send LEA in POLICE (ntd to LEA contact)
 
 After "starting" a NTD, SCARt will group urls for the samen abusecontact until the 
 hour-threshold is reached. 
@@ -31,5 +30,14 @@ if the hoster is still the same. If not, the url will be removed from the NTD.
 
 ## NTD email template 
 
+NTD are send based on a NTD templatw which can be defined as a general template
+in Settings -> NTD template. Which NTD template is used for an abuse contact is
+set in Abusecontact under the NTD tab. On this tab also a specific subject and body text
+can be set.
 
+Important in the text of the body is the tag-string "{{abuselinks}}". This tag will be
+replaced by the connected URLs.
+
+The URLs cvan be included in the body text, the URLs can also be attached in a CSV
+attachment.
 
