@@ -69,8 +69,8 @@ Cloudflare), this proxy service is used to automatically get the (real) IP.
 ## Direct classify
 
 Sometimes the classification can be done automatically based on a domain specification in 
-an URL. This can be done with the "Direct classify" rule. For the ILLEGAL and NOT ILLEGAL 
-the questions will be used as defined for a mainurl.   
+an URL. This can be done with the "Direct classify" rule. SCARt will apply the same 
+classification for all URL's under the domain as it has set for the mainurl of the domain.
 
 When an URL matches a Direct classify rule, the classification is set and the report is 
 directly set on the check online status. A NTD is send if applicable, also ICCAM actions 

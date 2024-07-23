@@ -63,10 +63,10 @@ FIRST POLICE is only possible when the record is classified as ILLEGAL. The
 abuse contact marked as POLICE will be informed by email with all the 
 records (URL's) marked with FIRST POLICE.
 
-Set MANUAL is also only possible when the record is ILLEGAL. When this is set 
+Set MANUAL is also only possible when the record is set ILLEGAL. When this is set 
 SCARt will automatically only check the Whois information and will not check 
-whether the URL (image) is online. In the function CHECKONLINE records can be set 
-offline.
+whether the URL (image) is (still) online. It will therefor not try to scrape the image. In the 
+function CHECKONLINE records can be set offline.
 
 With EDIT a number of fields can be updated:
 

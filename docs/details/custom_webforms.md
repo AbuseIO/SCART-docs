@@ -47,13 +47,7 @@ Note: a good tutorial about the YAML format you can find here:
 <https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started>
 
 This format can be used within the body from the import email with all (or a subset) 
-of fields included. An example email body text is:
-
-> url: www.s3group.nl \
-> text: this is a note \
-> custom: this a custom field 
-
-a complete example of such a email is:
+of fields included. A complete example of such an email is:
 
 ![img_4.png](../images/img_4.png)
 
