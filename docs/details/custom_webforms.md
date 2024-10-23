@@ -37,6 +37,16 @@ on the uniform resource locator (URL) pattern.
 You can also set the import field on “(extra attribute)”. In that case this field 
 will be imported as an extra attribute, the name of the field can be anything.
 
+### Password protection
+
+You can password-protect a field so that the imported value is not shown until a password 
+is provided. In the web form field definition, the Password Protection option must be 
+enabled, and a password has to be set.
+
+The password protection is activated within the POLICY function. The password must be 
+entered before the content of the field can be accessed.
+
+
 ## Import email format
 
 The import mail function uses the YAML (Yet Another Markup Language) format for 
